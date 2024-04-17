@@ -1,0 +1,13 @@
+
+.laranja{
+  --color-text-orange: #E34F26;
+  color: var(--color-text-orange);
+}
+.azul{
+  ---color-text-blue: #146082;;
+  color:  var(---color-text-blue);
+}
+.amarelo{
+  --color-text-yellow: #E9CA32;
+  color: var(--color-text-yellow);
+}

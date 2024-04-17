@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul, a{
+  list-style: none;
+  text-decoration: none;
+}
+
+[data-container="height"]{
+  padding: 150px 0 100px 0;
+
+}
+
+[data-container="width"]{
+  padding: 20px 0;
+  margin: 0 auto;
+  max-width: 820px ;
+  display: grid;
+  gap: 180px;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+}

@@ -4,33 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio Márcio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <a href="https://www.linkedin.com/in/marcio-cesar-dias-da-silva-3b572522a/">Márcio César</a>
-        <nav>
-            <a href="#">Projetos</a>
-            <a href="#">Formação</a>
-            <a href="#">contatos</a>
+<body class="poppins-medium">
+    <header data-header="bgClaro" style="color: #fff;">
+      <nav data-header="navHeader" class="poppins-semibold" style="font-size:16px;">
+          <a href="https://www.linkedin.com/in/marcio-cesar-dias-da-silva-3b572522a/" style="font-size: 1.8rem;">Márcio César</a>
+          <ul data-header="navMenu">
+            <li><a href="#">Projetos</a></li>
+            <li><a href="#">Formação</a></li>
+            <li><a href="#">contatos</a></li>
+          </ul>
         </nav>
 
-        <div>
-            <h1>Desenvolvedor<br>
+        <div data-container="width" data-container="width">
+            <h1 style="font-size: 3rem; z-index: 1;">Desenvolvedor<br>
                 Front End / &<br>
                 UI Design
             </h1>
-            <img src="./img/foto-perfil.png" alt="foto de Perfil">
-            <img src="./img/img-foguete.png" alt="Enfeite Foguete">
-            <img src="./img/img-planeta.png" alt="Enfeite planeta">
-        </div>
+            <img src="./img/foto-perfil.png" alt="foto de Perfil" data-img="perfil">
+          </div>
+          <img src="./img/img-foguete.png" alt="Enfeite Foguete" class="header-effects" id="foguete">
+          <img src="./img/img-planeta.png" alt="Enfeite planeta" id="planet">
     </header>
 
     <main>
         <div>
-            <h2>SOBRE MIM</h2>
+            <h2 style="text-align: center; font-size: 2rem;" data-container="height" class="azul poppins-bold">SOBRE MIM</h2>
             <div>
                 <p>  Olá, me chamo Márcio César. Atualmente tenho 26 anos, e estou em busca do meu primeiro emprego como desenvolvedor Front-End. Meu primeiro contato com programação foi em meados de 2022, e cara... foi paixão a primeira vista.
-                    No começo eu estava meio perdido, acredito que como a maioria, não sabia muito bem o que estudar. Foi ai que fui apresentado as linguagens de marcação e programação <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>.
+                    No começo eu estava meio perdido, acredito que como a maioria, não sabia muito bem o que estudar. Foi ai que fui apresentado as linguagens de marcação e programação <strong class="laranja">HTML</strong>, <strong class="azul">CSS</strong> e <strong class="amarelo">JavaScript</strong>.
                     Desde então venho trabalhando em alguns projetos pessoais.
                 </p>
                 <img src="./img/img-icones-tecnologias" alt="icones HTML CSS e Js">
