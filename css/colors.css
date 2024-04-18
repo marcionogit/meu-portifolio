@@ -11,3 +11,10 @@
   --color-text-yellow: #E9CA32;
   color: var(--color-text-yellow);
 }
+
+.bg-amarelo{
+  --color-bg-yellow: #FDA21D;
+  background-color: var(--color-bg-yellow);
+}
+
+

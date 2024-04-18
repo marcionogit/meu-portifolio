@@ -1,0 +1,16 @@
+[data-main="projetos"]{
+  overflow-x: auto;
+  padding: 68px 0;
+}
+
+main .carousel{
+  padding-left:60px;
+  padding-right:60px;
+  display: flex;
+  gap: 100px;
+
+}
+
+[data-main="carousel-img"]{
+  width: 400px;
+}
