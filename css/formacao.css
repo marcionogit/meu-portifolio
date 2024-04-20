@@ -1,0 +1,33 @@
+[data-formacao="sombra"]{
+  box-shadow: inset 0px 80px #ffffff;
+}
+
+[data-formacao="skills"] hr{
+  background-color: rgba(255, 255, 255, 0.15);
+  height: 6px;
+  max-width: 950px;
+  border: none;
+  margin: 0 auto;
+}
+
+[data-formacao="skills"] p{
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+[data-formacao="cursos"]{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 6px;
+  font-size: 14px;
+}
+
+[data-formacao="cursos"] li{
+  background-color: #8C1EF0;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  padding: 4px 8px;
+  margin-bottom: 20px;
+}

@@ -14,7 +14,7 @@
       <nav data-header="navHeader" class="poppins-semibold" style="font-size:16px;">
           <a href="https://www.linkedin.com/in/marcio-cesar-dias-da-silva-3b572522a/" style="font-size: 1.8rem;">Márcio César</a>
           <ul data-header="navMenu">
-            <li><a href="#">Projetos</a></li>
+            <li><a href="#projetos">Projetos</a></li>
             <li><a href="#">Formação</a></li>
             <li><a href="#">contatos</a></li>
             
@@ -40,12 +40,12 @@
                     No começo eu estava meio perdido, acredito que como a maioria, não sabia muito bem o que estudar. Foi ai que fui apresentado as linguagens de marcação e programação <strong class="laranja">HTML</strong>, <strong class="azul">CSS</strong> e <strong class="amarelo">JavaScript</strong>.
                     Desde então venho trabalhando em alguns projetos pessoais.
                 </p>
-                <img src="./img/main/img-icones-tecnologias.png" alt="icones HTML CSS e Js" width="320px">
+                <img src="./img/main/icons/img-icones-tecnologias.png" alt="icones HTML CSS e Js" width="320px">
             </div>
         </div>
 
         <div class="bg-amarelo" data-container="height" data-main="projetos">
-            <h2 style="text-align: center; color: #fff; font-size: 2rem;">Projetos</h2>
+            <h2 style="text-align: center; color: #fff; font-size: 2rem;" id="projetos">Projetos</h2>
             <nav data-main="projetos" class="carousel">
                 <a href="#"><img data-main="carousel-img" src="./img/main/projetos/tumb-souice.png" alt="Página Sou Ice"></a>
                 <a href="#"><img data-main="carousel-img" src="./img/main/projetos/tumb-bikcraft.png" alt="Bikcraft"></a>
@@ -53,57 +53,63 @@
             </nav>
         </div>
 
-        <div>
-            <p>Além da programação venho estudando bastante e aplicando conceitos de Design aos meus projetos.
-                Para montar as interface utilizo a ferramenta Figma.
+        <div data-container="width" style="gap: 140px; padding: 60px 0;" >
+            <p style="text-align: center; font-size: 17px; " class="azul">Além da programação venho estudando bastante e aplicando conceitos de Design aos meus projetos.
+                Para montar as interface utilizo a ferramenta <strong class="azul">Figma</strong>.
                 Abaixo estão alguns do trabalhos em que eu pude trabalhar.</p>
-            <img src="./img/" alt="Icone Figma">
+            <img src="./img/main/icons/img-icone-figma.png" alt="Icone Figma" style="width: 220px;">
         </div>
 
-        <div>
-            <ul>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-            </ul>
-            <ul>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-            </ul>
-            <ul>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-            </ul>
-            <ul>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-            </ul>
+        <div class="gallery-wrap">
+            <img src="./img/main/icons/icone-esquerda.png" alt="icone esquerda" id="backBtn">        
+            <div class="gallery">
+                <ul>
+                    <li class="carrossel-design"><img src="./img/main/designs/PLACA-SPECIALLE.jpg" alt="placa de sorvete Specialle"></li>
+                    <li class="carrossel-design"><img src="./img/main/designs/POST HALLOWEEN MARCIO.jpg" alt="HALLOWEEN Sou Ice"></li>
+                    <li class="carrossel-design"><img src="./img/main/designs/Márcio.jpg" alt="Design para Hamburgeria"></li>
+                </ul>
+                <ul>
+                    <li class="carrossel-design"><img src="./img/main/designs/Instagram post - 2.jpg" alt="Post para Instagram dia da Coinciência Negra"></li>
+                    <li class="carrossel-design"><img src="./img/main/designs/Instagram post - 1 (1).jpg" alt="Thaciano jogador de futebol"></li>
+                    <li class="carrossel-design"><img src="./img/main/designs/designe-pizza.jpg" alt="Design post Pizzaria"></li>
+                </ul>
+                <ul>
+                    <li class="carrossel-design"><img src="./img/main/designs/PLACA-DUO.png" alt="Placa de Preços Sorvetes Sou ice"></li>
+                    <li class="carrossel-design"><img src="./img/main/designs/capa.png" alt="Capa panfleto Sou Ice"></li>
+                    <li class="carrossel-design"><img src="./img/main/designs/Trufas Gelada.png" alt="placa promocional sou ice"></li>
+                </ul>
+                <ul>
+                    <li class="carrossel-design"><img src="./img/main/designs/A4 - 2.png" alt="Placa atacado"></li>
+                    <li class="carrossel-design"><img src="./img/main/designs/CAPA-PANFLETO-PERUIBE 1.png" alt="panfleto sou ice peruibe"></li>
+                    <li class="carrossel-design"><img src="./img/main/designs/calhas e rufos.png" alt="outdor calhas e rufos"></li>
+                </ul>
+            </div>
+            <img src="./img/main/icons/icone-direita.png" alt="icone direita" id="nextBtn">
         </div>
+
     </main>
-    <section>
-        <div>
-            <h2>For<br>
+    <section class="bg-formacao" data-formacao="sombra">
+        <div data-container="width" style="gap: 20px; text-align: center;">
+            <h2 style="font-size: 9rem; line-height: 150px; color: #fff; padding-top: 100px;" class="poppins-bold">For<br>
                 ma<br>
                 ção
             </h2>
-            <img src="img/" alt="emoticon Márcio">
+            <img src="img/formacao/img-formação.png" alt="emoticon Márcio">
         </div>
 
-        <div>
-            <span class="detail-skills"></span>
-            <h3>
-                Análise e Desenvolcimento de Sistemas
+        <div data-formacao="skills">
+            <hr>
+            <h3 style="color: #fff; font-size: 1.7rem; grid-template-columns: 1fr; max-width: 950px; " data-container="width">
+                Análise e Desenvolvimento de Sistemas
             </h3>
-            <div>
+            <div data-container="width" style="gap: 20px; max-width: 950px; align-items: initial;" >
                 <div>
                     <p>Descomplica Faculdade Digital - Santos Gonzaga</p>
+                    <p>abril 2023 -</p>
                 </div>
                 <ul>
                     <li>
-                        <ul>
+                        <ul data-formacao="cursos">
                             <li>JAVA</li>
                             <li>JS</li>
                             <li>CSS</li>
@@ -111,20 +117,20 @@
                         </ul>
                     </li>
                     <li>
-                        <ul>
-                            <li>ANGULAR</li>
+                        <ul data-formacao="cursos" >
+                            <li style="grid-column: 4;">ANGULAR</li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div>
-            <span class="detail-skills"></span>
-            <h3>
+        <div data-formacao="skills">
+            <hr>
+            <h3 style="color: #fff; font-size: 1.7rem; grid-template-columns: 1fr; max-width: 950px; " data-container="width">
                 JavaScript
             </h3>
-            <div>
+            <div data-container="width" style="gap: 20px; max-width: 950px; align-items: initial;">
                 <div>
                     <p>Origamid - 200 Horas</p>
                     <p>Trybe - 200 Horas</p>
@@ -132,7 +138,7 @@
                 </div>
                 <ul>
                     <li>
-                        <ul>
+                        <ul data-formacao="cursos">
                             <li>GitHub</li>
                             <li>JS</li>
                             <li>CSS</li>
@@ -140,45 +146,45 @@
                         </ul>
                     </li>
                     <li>
-                        <ul>
-                            <li>JS</li>
-                            <li>CSS</li>
-                            <li>HTML</li>
+                        <ul data-formacao="cursos">
+                            <li style="grid-column: 2;">JS</li>
+                            <li style="grid-column: 3;">CSS</li>
+                            <li style="grid-column: 4;">HTML</li>
                         </ul>
                     </li>
                     <li>
-                        <ul>
-                            <li>JS</li>
-                            <li>CSS</li>
-                            <li>HTML</li>
+                        <ul data-formacao="cursos">
+                            <li style="grid-column: 2;">JS</li>
+                            <li style="grid-column: 3;">CSS</li>
+                            <li style="grid-column: 4;">HTML</li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
         
-        <div>
-            <span class="detail-skills"></span>
-            <h3>
+        <div data-formacao="skills">
+            <hr>
+            <h3 style="color: #fff; font-size: 1.7rem; grid-template-columns: 1fr; max-width: 950px; " data-container="width">
                 HTML e CSS
             </h3>
-            <div>
+            <div data-container="width" style="gap: 20px; max-width: 950px; align-items: initial;">
                 <div>
                     <p>Origamid - 200 Horas</p>
                     <p>Curso em Vídeo - 200 Horas</p>
                 </div>
                 <ul>
                     <li>
-                        <ul>
-                            <li>CSS</li>
-                            <li>HTML</li>
+                        <ul data-formacao="cursos">
+                            <li style="grid-column: 3;">CSS</li>
+                            <li style="grid-column: 4;">HTML</li>
                         </ul>
                     </li>
 
                     <li>
-                        <ul>
-                            <li>CSS</li>
-                            <li>HTML</li>
+                        <ul data-formacao="cursos">
+                            <li style="grid-column: 3;">CSS</li>
+                            <li style="grid-column: 4;">HTML</li>
                         </ul>
                     </li>
                 </ul>
@@ -187,5 +193,6 @@
 
 
     </section>
+    <script src="./carrossel.js"></script>
 </body>
 </html>

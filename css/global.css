@@ -1,15 +1,16 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  scroll-behavior: smooth !important;
 }
 
 ul, a{
   list-style: none;
   text-decoration: none;
-}
-
-[data-container="height"]{
-  margin: 150px 0 40px 0;
 }
 
 [data-container="width"]{
@@ -21,6 +22,10 @@ ul, a{
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
   align-items: center;
+}
+
+[data-container="height"]{
+  margin: 150px 0 40px 0;
 }
 
 

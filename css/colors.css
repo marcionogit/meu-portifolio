@@ -17,4 +17,10 @@
   background-color: var(--color-bg-yellow);
 }
 
+.bg-formacao{
+  --color-bg-pink: #FB0DAF;
+  --color-bg-yellow: #FDA21D;
+  background-image: linear-gradient(90deg, var(--color-bg-pink), var(--color-bg-yellow));
+}
+
 
