@@ -41,3 +41,41 @@
   top: 480px;
   right: 180px;
 }
+
+@media (max-width:980px){
+  [data-header="bgClaro"]{
+    height: 450px;
+  }
+  
+  [data-img="perfil"]{
+    width: 200px;
+  }
+
+  #foguete{
+    width: 300px;
+    position: absolute;
+    top: 270px;
+    left: 30px;
+  }
+  
+  #planet{
+    width: 100px;
+    position: absolute;
+    top: 380px;
+    right: 180px;
+  }
+  
+  [data-header="title"]{
+    font-size: 2.5rem !important;
+  }
+}
+@media (max-width:800px){
+  [data-header="bgClaro"]{
+    height: 350px;
+  }
+}
+@media (max-width:450px){
+  [data-header="navHeader"]{
+    flex-direction: column;
+  }
+}

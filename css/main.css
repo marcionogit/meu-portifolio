@@ -25,5 +25,20 @@ main .carousel{
 }
 
 [data-main="carousel-img"]{
-  height: 400px;
+  height: 320px;
+}
+
+
+@media (max-width:980px){
+  #img-icones-tecnologias{
+    width: 250px;
+  }
+
+  [data-main="carousel-img"]{
+    height: 250px;
+  }
+
+  #tecnologias{
+    padding: 0 20px !important;
+  }
 }

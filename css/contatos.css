@@ -1,17 +1,27 @@
 .bg-contato-box{
-  padding: 180px 0 100px 0;
+  padding: 180px 20px 100px 20px;
 }
 
 .contato-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.contato-grid li a{
+  color: #fff;
+}
+
+.contato-grid li a:hover{
+  color: #ffffff80;
+}
+
+#contato{
+  margin-top: -40px;
+}
 
 [data-contato="navegacao"] {
   display: grid;  
   justify-content: end;
 }
-
 
 [data-contato="navegacao"] a{
   display: grid;
@@ -24,4 +34,17 @@
 [data-contato="navegacao"] img{
   width: 20px;
   padding-top: 4px;
+}
+
+
+@media (max-width:980px){
+  #contato{
+    font-size: 4.5rem !important;
+  }
+}
+
+@media (max-width:500px){
+  [data-formacao="cursos"] {
+    grid-template-columns: ;
+  }  
 }

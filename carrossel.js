@@ -18,19 +18,27 @@ btnBefore.addEventListener('click', ()=>{
 })
 const listaCarrossel = document.querySelectorAll('.carrossel-design');
 
-setInterval(() => {
+let i = 0;
+function carrossel(){
+let intervalo = setInterval(() => {
   btnNext.click();
-  
-}, 3000 ,1);
+  i++
+  if(i === 10){
+    clearInterval(intervalo);
+    carroselLeft();
+  }
+}, 3000 );
+}
 
+function carroselLeft(){
+  let intervalo2 = setInterval(() => {
+  btnBefore.click();
+  i--
+  if(i === 0){
+    clearInterval(intervalo2);
+    carrossel();
+  }
+}, 3000 );
+}
 
-addEventListener("scroll", (event) => {});
-
-onscroll = (event) => {};
-
-
-
-addEventListener('', (event)=>{
-  if(event.layerY > 2241)
-  console.log(event.layerY)
-})
+carrossel()

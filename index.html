@@ -22,7 +22,7 @@
         </nav>
 
         <div data-container="width" data-container="width">
-            <h1 style="font-size: 3rem; z-index: 1;">Desenvolvedor<br>
+            <h1 data-header="title" style="font-size: 3rem; z-index: 1;">Desenvolvedor<br>
                 Front End / &<br>
                 UI Design
             </h1>
@@ -35,21 +35,22 @@
     <main>
         <h2 style="text-align: center; font-size: 2rem;" data-container="height" class="azul poppins-bold">SOBRE MIM</h2>
         <div >
-            <div data-container="width" style="gap: 140px; padding: 0px;" >
-                <p style="text-align: center; font-size: 14px;" class="azul poppins-medium">  Olá, me chamo <strong class="azul">Márcio César</strong>. Atualmente tenho 26 anos, e estou em busca do meu primeiro emprego como desenvolvedor Front-End. Meu primeiro contato com programação foi em meados de 2022, e cara... foi paixão a primeira vista.
+            <div data-container="width" style="gap: 110px; padding: 0px;" id="tecnologias" >
+                <p style="text-align: center; font-size: 15px;" class="azul poppins-medium">  Olá, me chamo <strong class="azul">Márcio César</strong>. Atualmente tenho 26 anos, e estou em busca do meu primeiro emprego como desenvolvedor Front-End. Meu primeiro contato com programação foi em meados de 2022, e cara... foi paixão a primeira vista.
                     No começo eu estava meio perdido, acredito que como a maioria, não sabia muito bem o que estudar. Foi ai que fui apresentado as linguagens de marcação e programação <strong class="laranja">HTML</strong>, <strong class="azul">CSS</strong> e <strong class="amarelo">JavaScript</strong>.
                     Desde então venho trabalhando em alguns projetos pessoais.
                 </p>
-                <img src="./img/main/icons/img-icones-tecnologias.png" alt="icones HTML CSS e Js" width="320px">
+                <img src="./img/main/icons/img-icones-tecnologias.png" alt="icones HTML CSS e Js" width="320px" id="img-icones-tecnologias">
             </div>
         </div>
 
         <div class="bg-amarelo" data-container="height" data-main="projetos">
             <h2 style="text-align: center; color: #fff; font-size: 2rem;" id="projetos">Projetos</h2>
             <nav data-main="projetos" class="carousel">
-                <a href="#"><img data-main="carousel-img" src="./img/main/projetos/tumb-souice.png" alt="Página Sou Ice"></a>
-                <a href="#"><img data-main="carousel-img" src="./img/main/projetos/tumb-bikcraft.png" alt="Bikcraft"></a>
-                <a href="#"><img data-main="carousel-img" src="./img/main/projetos/tumb-dragonball.png" alt="Site DragonBall"></a>
+                <a target="_blank" href="https://marcionogit.github.io/projeto-souice/"><img data-main="carousel-img" src="./img/main/projetos/tumb-souice.png" alt="Página Sou Ice"></a>
+                <a target="_blank" href="https://marcionogit.github.io/projetofinal-bikcraft/"><img data-main="carousel-img" src="./img/main/projetos/tumb-bikcraft.png" alt="Bikcraft"></a>
+                <a target="_blank" href="https://marcionogit.github.io/dragonball2pontozero/"><img data-main="carousel-img" src="./img/main/projetos/tumb-dragonball.png" alt="Site DragonBall"></a>
+                <a target="_blank" href="https://github.com/marcionogit/balcao-de-vendas"><img data-main="carousel-img" src="./img/main/projetos/tumb-balcao-vendas.png" alt="Programa Balcão de vendas"></a>
             </nav>
         </div>
 
@@ -251,24 +252,24 @@
     </section>
 
     <footer class="bg-contato">
-        <div class="bg-contato-box" data-container="width" style="color:#fff; gap: 40px; max-width: 900px; align-items:normal;">
-            <p style="color: #fff; font-size: 16px; line-height: 1.75rem; " class="poppins-semibold">
+        <div class="bg-contato-box" data-container="width" style="color:#fff; gap: 40px 100px ; max-width: 900px; align-items:start; justify-self: auto;">
+            <p style="color: #fff; font-size: 16px; line-height: 1.75rem;" class="poppins-semibold">
                 Bom, espero que você tenha gostado, seu compartilhamento pode me ajudar bastante. Opniões são muito bem vindas, ansioso pelo seu feedback.
             </p>
-            <h3 id="contato" style="font-size: 6rem; text-align: right;">
+            <h3 id="contato" style="font-size: 5.75rem; text-align: end;">
                 contato
             </h3>
-            <img src="./img/footer/logo-codeCesar.png" alt="logomarca codecesar" style="width: 200px;">
+            <a href="https://www.instagram.com/code_cesar"><img src="./img/footer/logo-codeCesar.png" alt="logomarca codecesar" style="width: 200px;"></a>
             <div class="contato-grid">
                 <ul data-contato="navegacao">
-                    <li><a target="_blank" href="# "> <img src="./img/footer/instagram.png" alt="logotipo Instagram">@code_cesar</a></li>
-                    <li><a target="_blank" href="#"> <img src="./img/footer/linkedin.png" alt="logotipo linkedin">Márcio César</a></li>
-                    <li><a target="_blank" href="#"> <img src="./img/footer/github.png" alt="logotipo github">marcionogit</a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/code_cesar"> <img src="./img/footer/instagram.png" alt="logotipo Instagram">@code_cesar</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/marcio-cesar-dias-da-silva-3b572522a/"> <img src="./img/footer/linkedin.png" alt="logotipo linkedin">Márcio César</a></li>
+                    <li><a target="_blank" href="https://github.com/marcionogit"> <img src="./img/footer/github.png" alt="logotipo github">marcionogit</a></li>
                     <li><a target="_blank" href="#"> <img src="./img/footer/whats.png" alt="logotipo whatsapp">(13) xxxxx - xxxx</a></li>
                 </ul>
-                <ul data-contato="navegacao">
+                <ul>
                     <li>
-                        <a target="_blank" href=""> <img src="./img/footer/instagram.png" alt="logotipo instagram">@marcinhocdds</a>
+                        <a target="_blank" href="https://www.instagram.com/marcinhocdds" style=" font-weight: 600;">@marcinhocdds</a>
                     </li>
                 </ul>
             </div>
