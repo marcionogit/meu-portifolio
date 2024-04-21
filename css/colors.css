@@ -23,4 +23,9 @@
   background-image: linear-gradient(90deg, var(--color-bg-pink), var(--color-bg-yellow));
 }
 
+.bg-contato{
+  --color-bg-purple: #8C1EF0;
+  background-color: var(--color-bg-purple);
+}
+
 

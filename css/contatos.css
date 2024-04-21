@@ -1,0 +1,27 @@
+.bg-contato-box{
+  padding: 180px 0 100px 0;
+}
+
+.contato-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+[data-contato="navegacao"] {
+  display: grid;  
+  justify-content: end;
+}
+
+
+[data-contato="navegacao"] a{
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 6px;
+  color: #fff;
+  font-weight: 600;
+}
+
+[data-contato="navegacao"] img{
+  width: 20px;
+  padding-top: 4px;
+}
