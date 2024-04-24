@@ -46,12 +46,24 @@
     padding: 20px;
   }
 
-  [data-formacao="cursos"] {
-    
-  }
-
   #formacao{
     font-size: 6rem !important;
     line-height: 100px !important;
   }
+}
+
+@media (max-width:650px){
+  .ativo{
+    display: none;
+  }
+
+  [data-formacao="sombra"]{
+    box-shadow: inset 0px 0px #ffffff;
+  }
+}
+
+@media (max-width:500px){
+  [data-formacao="cursos"] {
+    grid-template-columns: 1fr 1fr;
+  }  
 }

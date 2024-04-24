@@ -46,8 +46,9 @@
   [data-header="bgClaro"]{
     height: 450px;
   }
-  
+
   [data-img="perfil"]{
+    margin: 40px auto;
     width: 200px;
   }
 
@@ -61,21 +62,56 @@
   #planet{
     width: 100px;
     position: absolute;
-    top: 380px;
+    top: 320px;
     right: 180px;
   }
   
   [data-header="title"]{
     font-size: 2.5rem !important;
   }
+  
+  [data-header="navHeader"]{
+    padding: 28px 40px 20px 60px;    
+  }
 }
+
 @media (max-width:800px){
   [data-header="bgClaro"]{
     height: 350px;
   }
 }
-@media (max-width:450px){
+
+
+@media (max-width:650px){
+  [data-header="bgClaro"]{
+    background-size: 175%;
+    height: 600px;
+  }
+
+  #planet{
+    display: none;
+  }
+  
+  #foguete{
+    width: 300px;
+    position: absolute;
+    top: 220px;
+    left: 30px;
+  }
   [data-header="navHeader"]{
     flex-direction: column;
   }
+}
+@media (max-width:400px){
+  [data-header="bgClaro"]{
+    background-size: 275%;
+    height: 600px;
+  }
+
+  #foguete{
+    width: 200px;
+    top: 240px;
+    left: 20px;
+  }
+
 }

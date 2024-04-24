@@ -42,3 +42,14 @@
   cursor: pointer;
   margin: 40px;
 }
+
+@media (max-width:650px){
+  .gallery ul img{
+    width: 250px;
+  }
+}
+@media (max-width:400px){
+  #backBtn, #nextBtn{
+    margin: 10px;
+  }
+}
