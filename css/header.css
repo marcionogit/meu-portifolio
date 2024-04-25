@@ -102,16 +102,23 @@
     flex-direction: column;
   }
 }
-@media (max-width:400px){
+@media (max-width:550px){
   [data-header="bgClaro"]{
-    background-size: 275%;
+    background-size: 200%;
     height: 600px;
   }
-
+  
+}
+@media (max-width:450px){
   #foguete{
     width: 200px;
     top: 240px;
     left: 20px;
   }
-
+  
+  [data-header="bgClaro"]{
+    background-size: 275%;
+    height: 600px;
+  }
+  
 }

@@ -58,7 +58,7 @@
   }
   
   [data-formacao="sombra"]{
-    box-shadow: inset 0px 0px #ffffff;
+    box-shadow: none;
   }
 }
 
