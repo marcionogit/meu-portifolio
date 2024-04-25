@@ -24,7 +24,7 @@ let i = 0;
 function carrossel(){
   let intervalo = setInterval(() => {
     if(window.innerWidth < 450){
-      valorTela = 300;
+      valorTela = 280;
       console.log(valorTela)
     } else{
       valorTela = 400
@@ -55,3 +55,11 @@ function carroselLeft(){
 }
 
 carrossel()
+
+const fotoPerfil = document.querySelector('#perfil');
+const isDarkTheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+if(isDarkTheme){
+  fotoPerfil.setAttribute('src', "./img/header/foto-perfil-dark.png");
+} else{
+  fotoPerfil.setAttribute('src', "./img/header/foto-perfil.png");
+}
