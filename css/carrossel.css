@@ -15,8 +15,9 @@
   flex: none;
 }
 .gallery ul img{
-  width: 100%;
+  max-width: 100%;
   width: 350px;
+  border-radius: 16px;
   filter: grayscale(30%);
   transition: transform 0.2s;
 }
@@ -45,7 +46,7 @@
 
 @media (max-width:650px){
   .gallery ul img{
-    width: 250px;
+    width: 200px;
   }
 }
 @media (max-width:400px){

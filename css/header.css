@@ -13,7 +13,13 @@
 }
 
 [data-header="navHeader"] a{
+  border-left: 4px solid transparent;
+  padding-left: 4px;
   color: #fff;
+}
+[data-header="navHeader"] a:hover{
+  border-left: 4px solid #fff;
+  transition: .2s;
 }
 
 [data-header="navMenu"]{

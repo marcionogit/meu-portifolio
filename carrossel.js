@@ -24,14 +24,13 @@ let i = 0;
 function carrossel(){
   let intervalo = setInterval(() => {
     if(window.innerWidth < 450){
-      valorTela = 280;
-      console.log(valorTela)
+      valorTela = 230;
     } else{
       valorTela = 400
     }
     btnNext.click();
     i++
-    if(i === 10){
+    if(i === 11){
       clearInterval(intervalo);
       carroselLeft();
     }
@@ -41,7 +40,7 @@ function carrossel(){
 function carroselLeft(){
   let intervalo2 = setInterval(() => {
     if(window.innerWidth < 450){
-      valorTela = 200;
+      valorTela = 230;
     } else{
       valorTela = 400
     }

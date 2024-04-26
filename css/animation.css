@@ -1,0 +1,44 @@
+#perfil{
+  animation: foto-perfil 1s;
+}
+@keyframes foto-perfil{
+from{
+  opacity: 0;
+}
+to{
+  opacity: 1;
+}
+}
+
+#foguete{
+  animation: anima-foguete 4s ease;
+  animation-iteration-count: infinite;
+}
+@keyframes anima-foguete{
+  0%{
+    transform: translateX(0px) translateY(0px) rotate(10deg);
+  } 50%{
+    transform: translateX(-60px) translateY(-80px) rotate(-10deg);
+  } 100%{
+    transform: translateX(0px) translateY(0px) rotate(10deg);
+  }
+}
+
+#planet{
+  animation: anima-planeta 10s ease;
+  animation-iteration-count: infinite;
+}
+@keyframes anima-planeta{
+  0%{
+    transform: translateX(0px) translateY(0px) rotate(10deg);
+  } 
+  50%{
+    transform: translateX(100px) translateY(-40px) rotate(10deg);
+  } 
+  75%{
+    transform: translateX(60px) translateY(-80px) rotate(10deg);
+  } 
+  100%{
+    transform: translateX(0px) translateY(0px) rotate(10deg);
+  }
+}
