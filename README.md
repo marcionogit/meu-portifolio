@@ -5,6 +5,8 @@
 ## Descrição
 Olá, seja bem vindo! Fico feliz em ver que dedicou um minuto do seu tempo para ver meu portifólio. Nele você consegirá ver alguns dos meus projetos, tanto como desenvolvedor web, tanto como designer.
 
+![img-projeto-figma](https://github.com/marcionogit/dragonball2pontozero/blob/main/figma/figma2.png)
+
 Para criação desse portifólio utilizei as seguintes tecnologias:
 
 **Figma**: Para criação da inteface e pré-visualização dos elementos da página.
