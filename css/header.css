@@ -34,6 +34,11 @@
   display: block;
 }
 
+#perfil{
+  z-index: 1;
+}
+
+
 #foguete{
   width: 500px;
   position: absolute;
@@ -46,6 +51,7 @@
   position: absolute;
   top: 480px;
   right: 180px;
+  z-index: 2;
 }
 
 @media (max-width:980px){

@@ -42,4 +42,10 @@
     font-size: 4.5rem !important;
   }
 }
+@media (max-width:980px){
+  #contato{
+    text-align: center !important;
+    grid-row: 1;
+  }
+}
 

@@ -18,6 +18,7 @@
 
 [data-formacao="skills"] a:hover{
   color: #fff;
+  transition: .25s;
 }
 
 [data-formacao="cursos"]{
