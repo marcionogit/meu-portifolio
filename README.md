@@ -7,11 +7,11 @@ Olá, seja bem vindo! Fico feliz em ver que dedicou um minuto do seu tempo para 
 
 Para criação desse portifólio utilizei as seguintes tecnologias:
 
-Figma: Para criação da inteface e pré-visualização dos elementos da página.
+**Figma**: Para criação da inteface e pré-visualização dos elementos da página.
 
-HTML5 : A linguagem de marcação principal para estruturar o conteúdo do site de forma semântica e acessível.
+**HTML5** : A linguagem de marcação principal para estruturar o conteúdo do site de forma semântica e acessível.
 
-CSS3 : Utilizei o CSS3 para estilizar os elementos do site, definindo núcleos, fontes, layouts responsivos e animações, a fim de proporcionar uma experiência visualmente agradável.
+**CSS3** : Utilizei o CSS3 para estilizar os elementos do site, definindo núcleos, fontes, layouts responsivos e animações, a fim de proporcionar uma experiência visualmente agradável.
 
 JavaScript : Com o JavaScript, tornei o site interativo e dinâmico. Utilizei recursos do JS para criar funcionalidades como animações de transição e manipulação de eventos. 
 
@@ -25,7 +25,7 @@ Na área de projetos estão exposto em um slide quatro projetos web.
 
 ### Bikcraft Origamid
 - **Descrição**: Este é um projeto desenvolvido no curso de HTML e CSS da Origamida , com o objetivo de criar um site para a venda de três modelos de bicicletas.
-- **Link do Repositório**: [Bikcraft Origamid]https://github.com/marcionogit/projetofinal-bikcraft)
+- **Link do Repositório**: [Bikcraft Origamid](https://github.com/marcionogit/projetofinal-bikcraft)
 - **Tecnologias**: HTML, CSS
 
 ### Funpage DragonBall 2.0
@@ -34,7 +34,7 @@ Na área de projetos estão exposto em um slide quatro projetos web.
 - **Tecnologias**: HTML, CSS e Javascript
 
 ### Balcão de Vendas
-- **Descrição**: SA necessidade de um sistema ágil e confiável para registrar as vendas foi o principal impulsionador deste projeto. O sistema anterior frequentemente apresentava problemas de estabilidade, deixando a equipe na mão em momentos críticos. Portanto, criamos uma solução interna que atenda às nossas necessidades específicas.
+- **Descrição**: A necessidade de um sistema ágil e confiável para registrar as vendas foi o principal impulsionador deste projeto. O sistema anterior frequentemente apresentava problemas de estabilidade, deixando a equipe na mão em momentos críticos. Portanto, criamos uma solução interna que atenda às nossas necessidades específicas.
 - **Link do Repositório**: [Balcão de Vendas](https://github.com/marcionogit/balcao-de-vendas)
 - **Tecnologias**: HTML, CSS e JavaScript
 
