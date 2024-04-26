@@ -101,7 +101,9 @@
   }
 
   #planet{
-    display: none;
+    width: 60px;
+    right: 110px;
+    z-index: 0;
   }
   
   #foguete{
