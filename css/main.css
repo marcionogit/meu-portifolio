@@ -43,19 +43,16 @@ main .carousel{
     padding: 0 20px !important;
   }
 }
-@media (max-width:650px){
+@media (max-width:700px){
   main .carousel{
-    padding-left:20px;
+    padding-left:40px;
     padding-right:20px;
     gap: 60px;
   }
+
   [data-main="projetos"]{
     padding: 20px 0;
-  }
-}
-
-@media (max-width:400px){
-  [data-main="projetos"]{
     box-shadow: inset 80px 0px #ffffff;
   }
+
 }

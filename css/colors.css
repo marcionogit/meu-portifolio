@@ -8,7 +8,7 @@
   --color-bg-4: #8C1EF0;
 }
 
-@media (prefers-color-scheme:dark){
+/* @media (prefers-color-scheme:dark){
   :root{
     --color-text-1: #E34F26;
     --color-text-2: #E9CA32;
@@ -38,7 +38,7 @@
     background-image: linear-gradient(90deg, var(--color-bg-2), var(--color-bg-3)) !important;
   }
 
-}
+} */
 
 
 .cor-text-1{

@@ -34,7 +34,7 @@ function carrossel(){
       clearInterval(intervalo);
       carroselLeft();
     }
-  }, 3000 );
+  }, 8000 );
 }
 
 function carroselLeft(){
@@ -50,7 +50,7 @@ function carroselLeft(){
     clearInterval(intervalo2);
     carrossel();
   }
-}, 3000 );
+}, 8000 );
 }
 
 carrossel()

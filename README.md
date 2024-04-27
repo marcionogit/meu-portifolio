@@ -3,7 +3,7 @@
 
 
 ## Descrição
-Olá, seja bem vindo! Fico feliz em ver que dedicou um minuto do seu tempo para ver meu portifólio. Nele você consegirá ver alguns dos meus projetos, tanto como desenvolvedor web, tanto como designer.
+Olá, seja bem vindo! Fico feliz em ver que dedicou um minuto do seu tempo para ver meu portifólio. Nele você consegirá ver alguns dos meus projetos, tanto como desenvolvedor web, quanto como designer.
 
 ![img-projeto-figma](https://github.com/marcionogit/meu-portifolio/blob/main/img/figma/protho.png)
 
